@@ -1,0 +1,125 @@
+.node-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 16px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.np-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.np-title-row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.np-filename {
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.np-close {
+  padding: 3px 8px;
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+/* Stats */
+.np-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  overflow: hidden;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 6px;
+  background: var(--bg);
+  gap: 2px;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.stat-item:nth-child(3n) { border-right: none; }
+.stat-item:nth-last-child(-n+3) { border-bottom: none; }
+
+.stat-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.stat-label {
+  font-size: 9px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Sections */
+.np-section {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.np-section-label {
+  font-family: var(--font-code);
+  font-size: 9px;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.np-path {
+  font-size: 11px;
+  color: var(--text-mid);
+  word-break: break-all;
+}
+
+.np-summary {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-mid);
+}
+
+/* Symbol list */
+.np-symbol-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.np-symbol {
+  font-size: 11px;
+  color: var(--text-mid);
+  padding: 2px 6px;
+  border-left: 1px solid var(--border-hi);
+}
+
+/* Dep list */
+.np-dep-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.np-dep {
+  font-size: 11px;
+  display: block;
+}

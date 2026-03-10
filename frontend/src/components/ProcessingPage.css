@@ -1,0 +1,108 @@
+.processing-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.processing-card {
+  width: 100%;
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 28px;
+}
+
+.proc-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.proc-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.proc-spinner {
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.proc-filename {
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+/* Progress bar */
+.proc-progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.proc-progress-bar {
+  flex: 1;
+  height: 2px;
+  background: var(--border);
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.proc-progress-fill {
+  height: 100%;
+  background: var(--text);
+  border-radius: 1px;
+  transition: width 0.6s ease;
+}
+
+.proc-progress-pct {
+  font-size: 11px;
+  color: var(--text-mid);
+  min-width: 32px;
+  text-align: right;
+}
+
+/* Steps */
+.proc-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.proc-step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  transition: color 0.2s;
+}
+
+.proc-step.done    { color: var(--text-mid); }
+.proc-step.active  { color: var(--text); }
+.proc-step.pending { color: var(--text-dim); }
+
+.proc-step-dot {
+  font-family: var(--font-code);
+  font-size: 11px;
+  width: 14px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.proc-step.done .proc-step-dot   { color: var(--ok); }
+.proc-step.active .proc-step-dot { color: var(--text); }
+
+/* Status */
+.proc-status-line {
+  min-height: 18px;
+}
+
+.proc-current-label {
+  font-family: var(--font-code);
+  font-size: 11px;
+  color: var(--text-mid);
+}

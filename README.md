@@ -7,8 +7,7 @@
 ---
 
 ## Demo
-
-(https://raw.githubusercontent.com/BOTO145/codebase-ai/demo.mp4)
+[![Watch the demo](https://img.youtube.com/vi/U9ZRDy9utqk/0.jpg)](https://www.youtube.com/watch?v=_U9ZRDy9utqk)
 
 ## What It Does
 

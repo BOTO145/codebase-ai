@@ -7,8 +7,14 @@
 ---
 
 ## Demo
+<p align="center">
+  <a href="https://youtu.be/U9ZRDy9utqk">
+    <img src="https://img.youtube.com/vi/U9ZRDy9utqk/maxresdefault.jpg" width="700">
+  </a>
+</p>
 
-<video src="demo.mp4" controls width="700"></video>
+<p align="center">
+</p>
 
 ## What It Does
 

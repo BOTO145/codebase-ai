@@ -7,11 +7,8 @@
 ---
 
 ## Demo
-<h2>Demo</h2>
 
-<video width="600" controls>
-  <source src="demo.mp4" type="video/mp4">
-</video>
+<video src="demo.mp4" controls width="700"></video>
 
 ## What It Does
 

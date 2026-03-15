@@ -8,7 +8,6 @@
 
 ## Demo
 
-(https://youtu.be/U9ZRDy9utqk)
 
 ## What It Does
 

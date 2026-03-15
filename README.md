@@ -7,8 +7,11 @@
 ---
 
 ## Demo
-[![Watch the demo](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg)](https://raw.githubusercontent.com/BOTO145/codebase-ai/main/assets/demo.mp4)
+<h2>Demo</h2>
 
+<video width="600" controls>
+  <source src="demo.mp4" type="video/mp4">
+</video>
 ## What It Does
 
 Upload a zipped project → the system parses every file, builds a dependency graph, and uses AI to generate plain-English explanations of your architecture, modules, and functions.

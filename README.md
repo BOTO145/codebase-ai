@@ -12,6 +12,7 @@
 <video width="600" controls>
   <source src="demo.mp4" type="video/mp4">
 </video>
+
 ## What It Does
 
 Upload a zipped project → the system parses every file, builds a dependency graph, and uses AI to generate plain-English explanations of your architecture, modules, and functions.

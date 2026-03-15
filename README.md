@@ -6,6 +6,10 @@
 
 ---
 
+## Demo
+
+(https://youtu.be/U9ZRDy9utqk)
+
 ## What It Does
 
 Upload a zipped project → the system parses every file, builds a dependency graph, and uses AI to generate plain-English explanations of your architecture, modules, and functions.

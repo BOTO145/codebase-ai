@@ -41,7 +41,7 @@ Upload a zipped project → the system parses every file, builds a dependency gr
 ### 2. Clone & configure
 
 ```bash
-git clone <repo>
+git clone https://github.com/BOTO145/codebase-ai
 cd codebase-ai
 cp .env.example .env
 # Edit .env and set your GROQ_API_KEY
